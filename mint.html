@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Funto - HTML NFT Marketplace">
+    <!-- Title-->
+    <title>Funto - HTML NFT Marketplace</title>
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/core-img/favicon.ico" type="image/x-icon">
+    <!-- All CSS Stylesheet-->
+    <link rel="stylesheet" href="css/all-css-libraries.css">
+    <!-- Core Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Preloader-->
+    <div class="preloader" id="preloader">
+      <div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div>
+    </div>
+    <!-- Header Wrapper -->
+    <header class="header-area dashboard-header px-0 px-sm-0">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="d-flex align-items-center">
+            <!-- Brand Logo -->
+            <div class="admin-logo me-1 me-sm-3"><img src="img/core-img/dashboard-logo.png" alt=""></div>
+            <!-- Search Form -->
+            <div class="search-form position-relative d-flex align-items-center">
+              <input class="form-control" type="text" placeholder="Search">
+              <button class="position-absolute" type="submit"><i class="bi bi-search"></i></button>
+            </div>
+          </div>
+          <!-- Header Meta -->
+          <div class="header-meta d-flex align-items-center">
+            <!-- Notification -->
+            <button class="btn btn-sm btn-primary rounded-pill ms-2 ms-sm-3 d-none d-sm-block" href="#"><i class="bi bi-wallet2"></i> Connect Wallet</button>
+            <!-- User Dropdown -->
+            <div class="user-dropdown dropdown">
+               <button class="btn btn-sm btn-primary rounded-pill ms-2 ms-sm-3 d-none d-sm-block" href="#"><i class="bi bi-wallet2"></i> Connect Wallet</button>
+              <ul class="dropdown-menu dropdown-menu-end mt-3" aria-labelledby="dd20">
+                <li><a class="dropdown-item" href="dashboard.html"><i class="me-2 bi bi-person-circle"></i>Dashboard</a></li>
+                <li><a class="dropdown-item" href="live-bids.html"><i class="me-2 bi bi-hammer"></i>My bids</a></li>
+                <li><a class="dropdown-item" href="collection.html"><i class="me-2 bi bi-collection"></i>Collection</a></li>
+                <li><a class="dropdown-item" href="settings.html"><i class="me-2 bi bi-gear"></i>Settings</a></li>
+              </ul>
+            </div>
+            <!-- Menu Toggler -->
+              <button class="btn btn-sm btn-primary rounded-pill ms-2 ms-sm-3 d-none d-sm-block" href="#"><i class="bi bi-wallet2"></i> Connect Wallet</button>
+            <div class="menu-toggler ms-2 ms-sm-3" id="dashboardMenuTrigger"><i class="bi bi-list"></i></div>
+          
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Admin Sidebar Wrap -->
+    <div class="admin-sidebar-wrap">
+      <div class="overflowY-scroll">
+        <!-- User Profile -->
+      
+        <!-- Sidenav -->
+        <div class="sidenav">
+          <ul>
+            <li>Menu</li>
+            <li><a  href="index.html"><i class="bi bi-speedometer"></i>Home</a></li>
+            <li><a  href="#"><i class="bi bi-hammer"></i>IDO Gigant</a></li>
+            <li><a  href="#"><i class="bi bi-hammer"></i>Airdrop</a></li>
+            <li><a  href="#"><i class="bi bi-hammer"></i>Mint NFT</a></li>
+            <li><a  href="collection.html"><i class="bi bi-columns-gap"></i>My Collections</a></li>
+            <li><a class="active" href="#"><i class="bi bi-wallet2"></i>Explore</a></li>
+            <li><a href="#"><i class="bi bi-bell"></i>Marketplace</a></li>
+          </ul>
+        </div>
+        <div class="mt-auto">
+          <div class="mt-5"></div>
+          <!-- Mode Switching -->
+          <div class="dark-light-mode">
+            <input id="darkLightSwitch" type="checkbox">
+            <label class="shadow" for="darkLightSwitch">Toggle</label>
+          </div>
+          <div class="copywrite-text mt-4">
+            <p class="mb-0 fz-14">2022 &copy; All rights reserved by <a class="fz-14" href="#" target="_blank">OrbsGigant.io</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="admin-wrapper">
+        <div class="item-details-wrap">
+      <div class="container">
+        <div class="row g-4 g-lg-5 justify-content-center">
+          <div class="col-12 col-md-12 col-lg-6">
+            <div class="item-big-thumb"><img src="img/t.jpg" alt="" data-action="zoom"></div>
+          </div>
+          <!-- Item Details Content -->
+          <div class="col-12 col-md-9 col-lg-6">
+            <div class="item-details-content mt-5 mt-lg-0">
+              
+          
+              <h2 class="my-3">Mint NFTs 10/1000</h2><p>
+                 <h4 class="my-4">TOTAL NFT 50/1000</h4>
+              </p>
+              <div class="d-flex align-items-center mb-4">
+                <div class="name-author"><span class="d-block fz-14"><b>Price Mint : 0 BNB</b></span></div>
+
+              </div>
+              <div class="border-top w-75 mb-4"></div>
+              <!-- Bid End -->
+              <p class="lh-1">Free Mint NFTs End On :</p>
+              <div class="bid-ends mb-4" data-date="December 31, 2022 14:19:39">
+                <div><span class="days">272</span><span>Days</span></div>
+                <div><span class="hours">17</span><span>Hours</span></div>
+                <div><span class="minutes">49</span><span>Min</span></div>
+                <div><span class="seconds">55</span><span>Sec</span></div>
+              </div>
+              <div class="row align-items-end">
+               
+                <div class="col-4 col-sm-4 col-lg-10"><a class="btn btn-primary rounded-pill w-100" href="#"><img class="me-1" src="img/core-img/fire.png" alt="">Mint Now</a></div>
+              </div>
+              <div class="border-top w-75 my-4"></div>
+              <div class="short-description">
+                <h5>OrbsGigant Description</h5>
+                <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque aut veniam consectetur magnam libero, natus eius numquam reprehenderit hic at, excepturi repudiandae magni optio odio doloribus?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- All JavaScript Files-->
+    <script src="js/all-js-libraries.js"></script>
+    <script src="js/active.js"></script>
+    <script src="js/charts.js"></script>
+  </body>
+</html>
+  
