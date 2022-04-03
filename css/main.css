@@ -1,0 +1,9 @@
+.sidebar-label {
+    background-color: #dc3545;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 9px;
+    color: #FFFFFF;
+    margin-left: 4px;
+    font-style: italic;
+}
