@@ -421,6 +421,18 @@ textarea:invalid {
   background-color: transparent;
   border-color: transparent;
 }
+.btn-primary:hover  {
+  background-color: #104b9a;
+  border-color: #104b9a;
+}
+.btn-primary {
+  background-color: #163258;
+  border-color: #163258;
+}
+.btn-primary.active {
+  background-color: #104b9a;
+  border-color: #104b9a;
+}
 .btn-minimal.btn-primary {
   color: #0d6efd;
 }
